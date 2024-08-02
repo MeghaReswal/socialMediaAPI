@@ -10,8 +10,7 @@ const postSchema = mongoose.Schema(
 
     media: [
       {
-        type: mongoose.SchemaTypes.ObjectId,
-        ref: "Media",
+        type: String,
       },
     ],
     title: {
